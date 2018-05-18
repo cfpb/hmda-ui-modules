@@ -9,6 +9,10 @@
   "keywords": [
     "HMDA"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/cfpb/hmda-ui-modules.git"
+  },
   "author": "Consumer Financial Protection Bureau",
   "license": "CC0-1.0",
   "peerDependencies": {
