@@ -34,7 +34,14 @@ const Header = () => {
               {links.map(link => {
                 return (
                   <li key={link.name}>
-                    <a href={link.href} className="usa-nav-link">
+                    <a
+                      href={link.href}
+                      className="usa-nav-link"
+                      target={link.name === 'Filing' ? '_blank' : null}
+                      rel={
+                        link.name === 'Filing' ? 'noopener noreferrer' : null
+                      }
+                    >
                       {link.name}
                     </a>
                   </li>
