@@ -11,11 +11,10 @@ const links = [
 const Header = () => {
   return (
     <>
-      <a key={1} className="usa-skipnav" href="#main-content">
+      <a className="usa-skipnav" href="#main-content">
         Skip to main content
       </a>
       <header
-        key={2}
         className="hmda-header usa-header usa-header-basic"
         role="banner"
       >
