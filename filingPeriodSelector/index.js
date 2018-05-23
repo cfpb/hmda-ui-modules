@@ -15,6 +15,7 @@ const FilingPeriodSelector = props => {
         {filingPeriods.map(filingPeriod => {
           return (
             <option
+              key={filingPeriod}
               value={filingPeriod}
               selected={isSelected(filingPeriod, props.filingPeriod)}
             >
