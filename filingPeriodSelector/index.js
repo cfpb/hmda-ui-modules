@@ -6,11 +6,7 @@ const filingPeriods = ['2018', '2017']
 const FilingPeriodSelector = props => {
   return (
     <form className="FilingPeriodSelector usa-form">
-      <select
-        defaultValue={filingPeriods[0]}
-        value={props.filingPeriod}
-        onChange={props.onChange}
-      >
+      <select value={props.filingPeriod} onChange={props.onChange}>
         {filingPeriods.map(filingPeriod => {
           return (
             <option key={filingPeriod} value={filingPeriod}>
