@@ -1,13 +1,14 @@
 {
   "name": "hmda-ui",
-  "version": "0.0.7",
-  "description":
-    "Unbuilt react modules used in various UI apps by the HMDA team at CFPB",
+  "version": "0.0.8",
+  "description": "Unbuilt react modules used in various UI apps by the HMDA team at CFPB",
   "main": "index.js",
   "engines": {
     "node": ">=8.x"
   },
-  "keywords": ["HMDA"],
+  "keywords": [
+    "HMDA"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/cfpb/hmda-ui-modules.git"
