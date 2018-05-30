@@ -12,7 +12,7 @@ const Footer = () => {
             <ul className="usa-unstyled-list">
               <li className="usa-footer-primary-content">
                 <a className="usa-nav-link" href="/" aria-label="Home">
-                  <img src="/img/ffiec-logo.png" width="75px" alt="FFIEC" />
+                  <img alt="FFIEC" src="/img/ffiec-logo.svg" height="21" />
                   Home Mortgage Disclosure Act
                 </a>
               </li>
