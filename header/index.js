@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from '../common/Logo.jsx'
 import BannerUSA from './BannerUSA.jsx'
 
 const links = [
@@ -24,7 +23,7 @@ const Header = () => {
           <div className="usa-logo" id="logo">
             <em className="usa-logo-text">
               <a className="usa-nav-link" href="/" aria-label="Home">
-                <Logo height="32" />
+                <img alt="FFIEC" src="/img/ffiec-logo.svg" height="32" />
                 Home Mortgage Disclosure Act
               </a>
             </em>
