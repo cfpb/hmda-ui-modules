@@ -1,6 +1,6 @@
 {
   "name": "hmda-ui",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Unbuilt react modules used in various UI apps by the HMDA team at CFPB",
   "main": "index.js",
   "engines": {
