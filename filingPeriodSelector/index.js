@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-var filingPeriods = ['2018', '2017']
+const filingPeriods = ['2018', '2017']
 
-var FilingPeriodSelector = props => {
+const FilingPeriodSelector = props => {
   return (
     <form className="FilingPeriodSelector usa-form">
       <select value={props.filingPeriod} onChange={props.onChange}>

@@ -1,14 +1,14 @@
 import React from 'react'
 import BannerUSA from './BannerUSA.jsx'
 
-var links = [
+const links = [
   { name: 'Home', href: '/' },
   { name: 'Filing', href: '/filing/' },
   { name: 'Data Publication', href: '/data-publication/' },
   { name: 'Tools', href: '/tools/' }
 ]
 
-var Header = () => {
+const Header = () => {
   return (
     <div>
       <a className="usa-skipnav" href="#main-content">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-var Footer = () => {
+const Footer = () => {
   return (
     <footer className="Footer usa-footer usa-footer-slim" role="contentinfo">
       <div className="usa-grid usa-footer-return-to-top">
