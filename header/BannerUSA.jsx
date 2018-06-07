@@ -1,6 +1,6 @@
 import React from 'react'
 
-const USABanner = () => {
+var USABanner = function() {
   return (
     <div className="usa-banner">
       <header className="usa-banner-header">
