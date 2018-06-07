@@ -10,14 +10,11 @@ const links = [
 
 const Header = () => {
   return (
-    <>
+    <React.Fragment>
       <a className="usa-skipnav" href="#main-content">
         Skip to main content
       </a>
-      <header
-        className="hmda-header usa-header usa-header-basic"
-        role="banner"
-      >
+      <header className="hmda-header usa-header usa-header-basic" role="banner">
         <BannerUSA />
         <div className="usa-nav-container">
           <div className="usa-logo" id="logo">
@@ -50,7 +47,7 @@ const Header = () => {
           </nav>
         </div>
       </header>
-    </>
+    </React.Fragment>
   )
 }
 
