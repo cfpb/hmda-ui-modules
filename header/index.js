@@ -10,7 +10,7 @@ const links = [
 
 const Header = () => {
   return (
-    <React.Fragment>
+    <div>
       <a className="usa-skipnav" href="#main-content">
         Skip to main content
       </a>
@@ -47,7 +47,7 @@ const Header = () => {
           </nav>
         </div>
       </header>
-    </React.Fragment>
+    </div>
   )
 }
 

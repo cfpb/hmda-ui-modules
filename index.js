@@ -1,4 +1,4 @@
-import Header from './header/index.js'
+import Header from './header'
 import Footer from './footer'
 import FilingPeriodSelector from './filingPeriodSelector'
 
