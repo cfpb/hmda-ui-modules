@@ -1,6 +1,5 @@
 const path = require('path')
 const webpack = require('webpack')
-const WebpackShellPlugin = require('webpack-shell-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -18,10 +17,6 @@ module.exports = {
         collapseWhitespace: true,
         removeComments: true
       }
-    }),
-    new WebpackShellPlugin({
-      onBuildEnd: ['yarn run env'],
-      dev: false
     })
   ],
   module: {
