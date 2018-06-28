@@ -8,10 +8,11 @@ const links = [
   { name: 'Tools', href: '/tools/' }
 ]
 
+const basename = window.location.pathname.split('/')[1]
+
 const isLinkActive = href => {
   const linkClass = 'usa-nav-link'
-  if (window.location.pathname.split('/')[1] === href.replace('/', ''))
-    return linkClass.concat(' active')
+  if (basename === href.replace(/\//g, '')) return linkClass.concat(' active')
   return linkClass
 }
 
