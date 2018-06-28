@@ -8,16 +8,20 @@ const links = [
   { name: 'Tools', href: '/tools/' }
 ]
 
+const isLinkActive = href => {
+  const linkClass = 'usa-nav-link'
+  if (window.location.pathname.split('/')[1] === href.replace('/', ''))
+    return linkClass.concat(' active')
+  return linkClass
+}
+
 const Header = () => {
   return (
-    <>
+    <React.Fragment>
       <a className="usa-skipnav" href="#main-content">
         Skip to main content
       </a>
-      <header
-        className="hmda-header usa-header usa-header-basic"
-        role="banner"
-      >
+      <header className="hmda-header usa-header usa-header-basic" role="banner">
         <BannerUSA />
         <div className="usa-nav-container">
           <div className="usa-logo" id="logo">
@@ -35,7 +39,7 @@ const Header = () => {
                   <li key={link.name}>
                     <a
                       href={link.href}
-                      className="usa-nav-link"
+                      className={isLinkActive(link.href)}
                       target={link.name === 'Filing' ? '_blank' : null}
                       rel={
                         link.name === 'Filing' ? 'noopener noreferrer' : null
@@ -50,7 +54,7 @@ const Header = () => {
           </nav>
         </div>
       </header>
-    </>
+    </React.Fragment>
   )
 }
 
